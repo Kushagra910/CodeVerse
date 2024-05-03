@@ -72,18 +72,10 @@ export default function Footer() {
         <div className='flex flex-col'>
           <div className='flex justify-center gap-1'>
             Made with <img src={heart} alt='heart' /> and{' '}
-            <img src={code} alt='code' /> by{' '}
-            <a
-              href='https://abhaygupta.me/'
-              rel='nofollow'
-              target={'_blank'}
-              className='text-white link-slide opacity-70'
-            >
-              Abhay Gupta
-            </a>
+            <img src={code} alt='code' />
           </div>
           <div>
-          Copyright © 2022 Code Buddy. All rights reserved.
+          Hello World from Abhishek, Atul, Harsh and Rambabu
           </div>
         </div>
       </div>
