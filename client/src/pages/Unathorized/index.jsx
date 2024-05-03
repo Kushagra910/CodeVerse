@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router';
-import LeftArrow from '../../assets/leftArrow.svg';
+import LeftArrow from '../../assets/LeftArrow.svg';
 
 export default function Unathorized() {
   const navigate = useNavigate();
