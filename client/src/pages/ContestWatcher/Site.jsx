@@ -5,7 +5,7 @@ import { ALL_CONTEST_URL } from '../../constants';
 import axios from '../../api/axios';
 import Loader from '../../components/Loader';
 import constants from './constants';
-import LeftArrow from '../../assets/leftArrow.svg';
+import LeftArrow from '../../assets/LeftArrow.svg';
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
