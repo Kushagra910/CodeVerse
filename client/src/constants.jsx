@@ -4,8 +4,8 @@ export const ROLES = {
   User: 2001,
 }
 
-// export const API_URL = 'http://localhost:3000/';
-export const API_URL = 'https://code-buddybackend.herokuapp.com/';
+export const API_URL = 'http://localhost:3000/';
+// export const API_URL = 'https://code-buddybackend.herokuapp.com/';
 export const LOGIN_URL = 'auth';
 export const REGISTER_URL = 'register';
 export const LOGOUT_URL = 'logout';

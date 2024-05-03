@@ -7,7 +7,7 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Abhay Gupta",
+  "author": "RANDOM ME",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
