@@ -14,7 +14,7 @@ const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 
 // custom middleware logger
 if (process.env.NODE_ENV === 'production') {
