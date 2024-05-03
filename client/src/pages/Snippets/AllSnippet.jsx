@@ -4,7 +4,7 @@ import { ALL_PUBLIC_SNIPPETS } from '../../constants';
 import Loader from '../../components/Loader';
 import SnippetCard from './SnippetCard';
 import useSearchParams from '../../hooks/useSearchParams';
-import LeftArrow from '../../assets/leftArrow.svg';
+import LeftArrow from '../../assets/LeftArrow.svg';
 import { useNavigate } from 'react-router';
 import { Helmet } from 'react-helmet';
 
