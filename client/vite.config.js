@@ -8,4 +8,7 @@ export default defineConfig({
     alias: [{ find: '@', replacement: path.resolve(__dirname, '/src') }],
   },
   plugins: [reactRefresh()],
+  build: {
+    chunkSizeWarningLimit: 1000 // Set the limit to 1000 KiB
+  }
 });

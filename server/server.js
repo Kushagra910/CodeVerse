@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+require("dotenv").config();
 
 const http = require("http")
 const { Server } = require("socket.io");
@@ -13,7 +14,7 @@ const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // custom middleware logger
 if (process.env.NODE_ENV === 'production') {
@@ -145,3 +146,4 @@ io.on("connection", (socket) => {
   });
 
 });
+
